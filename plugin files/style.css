@@ -1,0 +1,42 @@
+/*Dette er stylingen af mit event-signup plugin*/
+
+form {
+  	display: flex;
+  	flex-direction: column; 		/*Denne kode sætter felterne i formularen under hinanden (kolonne istedet for række)*/
+  	
+}
+
+input#submitbtn {
+  	margin-bottom: 20px;
+  	width: 20%;
+  	border-radius: 20px 20px 20px 20px;
+  	background-color: orange; 			/*Her styler jeg "Sign me up"-knappen*/
+  	margin-top: 3%;
+  	padding: 2%;
+  	margin-left: 40%;
+}
+
+input#emailadress {
+  	border-radius: 20px 20px 20px 20px;
+  	margin-top: 3%;			/*Her styler jeg feltet, hvori man skriver sin e-mail*/
+  	width: 45%;
+  	margin-left: 28%;
+}
+
+input#yourname {
+  	border-radius: 20px 20px 20px 20px;
+  	width: 45%;				/*Her styler jeg feltet, hvori man skriver sit navn*/
+  	margin-left: 28%;
+}
+
+
+
+input#submitbtn {		/*Her påbegynder jeg en CSS-Animation på "Sign me up"-knappen*/					
+  animation: eventsignup 5s infinite;		/*Her angives en animation, at den skal hedde "eventsignup, varer 5 sekunder og skal være uendelig*/	
+}
+
+@keyframes eventsignup {				/*Her laver jeg en animationskode (keyframe) og angiver navnet på animationen*/		
+  from {background-color: #F5A303;} 	/*Her sætter jeg farven på knappen til at gå fra en specifik orange til en specifik mørkeblå*/	
+  to {background-color: #0B1E34;}		/*Det færdige resultat er en knap der i et uendeligt loop skifter mellem to farver på mit WordPress site*/
+}
+

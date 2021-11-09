@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Astra Child Theme
+ Theme URI:    https://maikenmelinahoffmannlarsen.dk//astra-child-theme/
+ Description:  Astra Child Theme based on the parent theme Astra
+ Author:       Maiken Melina Hoffmann Larsen
+ Author URI:   https://maikenmelinahoffmannlarsen.dk/
+ Template:     astra
+ Version:      1.1.2
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachild
+*/
+
+.elementor-widget-image img { /*I denne og næste class ændrer jeg billedernes gennemsigtighed, så det bliver mere tydeligt at det er links*/
+    vertical-align: middle;
+    display: inline-block;
+  	opacity: 0.5;
+}
+
+.elementor-widget-image img:hover {
+    vertical-align: middle;
+    display: inline-block;
+  	opacity: 1.0;
+}
+
+:root {				
+    --e-global-color-astglobalcolor0: #f5a303;
+    --e-global-color-astglobalcolor1: #f5a303;
+    --e-global-color-astglobalcolor2: #222222;
+    --e-global-color-astglobalcolor3: #222222;
+    --e-global-color-astglobalcolor4: #ffffff;
+    --e-global-color-astglobalcolor5: #f7f7f7;
+    --e-global-color-astglobalcolor6: #191919;
+    --e-global-color-astglobalcolor7: #000000;
+    --e-global-color-astglobalcolor8: #f7f7f7;
+}			
+				/*Her ændre jeg temaets "Global Colors" til den nye farvepalette jeg har lavet til Student Survival Guide*/
+:root {
+    --ast-global-color-0: #f5a303;
+    --ast-global-color-1: #f5a303;
+    --ast-global-color-2: #222222;
+    --ast-global-color-3: #222222;
+    --ast-global-color-4: #ffffff;
+    --ast-global-color-5: #f7f7f7;
+    --ast-global-color-6: #191919;
+    --ast-global-color-7: #000000;
+    --ast-global-color-8: #f7f7f7;
+}
